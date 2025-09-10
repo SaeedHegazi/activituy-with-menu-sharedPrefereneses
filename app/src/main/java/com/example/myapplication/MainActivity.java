@@ -34,7 +34,9 @@ public boolean onOptionsItemSelected(MenuItem item){
             intent = new Intent(String.valueOf(MainActivity.this),MainActivity);
 
         }
-        else if (id == R.id.dash){}
+        else if (id == R.id.dash){
+
+        }
         else if (id == R.id.login){}
 
 
