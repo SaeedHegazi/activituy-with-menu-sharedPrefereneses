@@ -37,6 +37,7 @@ EditText e1,e2;
     }
 
     public void ret(View view) {
+        isLoged = false;
        intent1 = new Intent(this,MainActivity.class);
        startActivity(intent1);
     }
