@@ -28,6 +28,7 @@ EditText e1,e2;
     public void check(View view) {
         if(e1.getText().toString().equals(e2.getText().toString())){
             isLoged = true;
+
             intent1 = new Intent(this,MainActivity3.class);
             startActivity(intent1);
 
