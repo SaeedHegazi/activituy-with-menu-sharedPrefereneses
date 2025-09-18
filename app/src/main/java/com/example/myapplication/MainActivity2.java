@@ -29,7 +29,7 @@ EditText e1,e2;
         if(e1.getText().toString().equals(e2.getText().toString())){
             isLoged = true;
             intent1 = new Intent(this,MainActivity3.class);
-            startActivities(intent1);
+            startActivity(intent1);
 
         }
 
@@ -37,9 +37,8 @@ EditText e1,e2;
 
     public void ret(View view) {
        intent1 = new Intent(this,MainActivity.class);
-       startActivities(intent1);
+       startActivity(intent1);
     }
 
-    private void startActivities(Intent intent1) {
-    }
+
 }
