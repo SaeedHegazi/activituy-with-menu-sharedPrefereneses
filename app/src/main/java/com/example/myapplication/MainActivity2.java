@@ -30,6 +30,7 @@ EditText e1,e2;
             isLoged = true;
 
             intent1 = new Intent(this,MainActivity3.class);
+
             startActivity(intent1);
 
         }
